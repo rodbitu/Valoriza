@@ -10,7 +10,7 @@ class CreateTagService {
     }
 
     const tagAlreadyExists = await tagsRepositories.findOne({
-      name
+      name,
     });
 
     if (tagAlreadyExists) {
@@ -18,7 +18,7 @@ class CreateTagService {
     }
 
     const tag = tagsRepositories.create({
-      name
+      name,
     });
 
     await tagsRepositories.save(tag);

@@ -12,6 +12,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
+- [TypeORM](https://www.npmjs.com/package/typeorm)
+- [SQLite](https://www.sqlite.org/index.html)
 
 ## 💻 Projeto
 
